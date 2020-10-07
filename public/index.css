@@ -1,12 +1,13 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     padding: 30;
     margin: 0;
 }
 
-.li{
+.li {
     list-style: none;
 }
 
@@ -21,7 +22,6 @@ body{
 .restaurants {
     display: flex;
     flex-wrap: wrap;
-
     list-style-type: none;
     padding: 30;
     margin: 0 -12px;
@@ -29,15 +29,15 @@ body{
 
 .restaurants-item-name {
     color: black;
-
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
     display: block;
 }
+
 .restaurants-item-type {
-     color: gray;
+    color: gray;
 }
 
 .restaurants-item-imageURL {
@@ -46,8 +46,8 @@ body{
 }
 
 h1 {
-    border: 2px solid blueviolet; 
-    
+    border: 2px solid white;
+    border-radius: 8px;
+    color: darkcyan;
+    text-align: center;
 }
-
-
